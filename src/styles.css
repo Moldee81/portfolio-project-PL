@@ -28,6 +28,9 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+.accent {
+  color: var(--branding-color);
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -41,6 +44,20 @@ p {
   line-height: 2;
   color: #272142;
   font-size: 24px;
+}
+.about-section {
+  padding: 160px 20px;
+}
+.about-content {
+  margin: 30px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
 }
 .btn-branding {
   background: var(--branding-color);
@@ -88,5 +105,28 @@ p {
   }
   .hero p {
     margin-bottom: 10px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .about-content {
+    text-align: center;
+    padding: 0;
+  }
+}
+@media (max-width: 550px) {
+  .about-section h1 {
+    font-size: 25px;
+    margin: 0;
+  }
+  .about-content {
+    line-height: 56px;
+    padding: 0;
+  }
+  h1,
+  h2 {
+    padding: 0;
+    margin-top: 30px;
   }
 }
