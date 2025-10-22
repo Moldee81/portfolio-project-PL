@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-project-pl",
+  "version": "1.0.0",
+  "scripts": {
+        "start": "live-server"
+      },
+  "description": "",
+  "homepage": "https://github.com/Moldee81/portfolio-project-PL#readme",
+  "bugs": {
+    "url": "https://github.com/Moldee81/portfolio-project-PL/issues",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Moldee81/portfolio-project-PL.git"
+    },
+    "license": "ISC",
+    "author": "anita",
+    "type": "commonjs",
+    "main": "index.html",
+    "devDependencies": {
+      "live-server": "^1.2.2"
+    }
+  }
+}
