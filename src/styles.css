@@ -59,6 +59,9 @@ nav a:hover,
 nav li.active a {
   color: var(--branding-color);
 }
+.equal-height {
+  height: 520px;
+}
 footer {
   margin: 60px 0;
 }
@@ -129,7 +132,7 @@ footer .social-links a:hover {
   line-height: 1.5;
 }
 .content p {
-  font-size: 14px;
+  font-size: 16px;
 }
 .section h1 {
   font-size: 64px;

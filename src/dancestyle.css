@@ -5,10 +5,12 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
-body {
-  font-family: var(--default-font-family);
+.container-dance {
+  font-family: var(--heading-font-family);
   background-color: rgb(10, 33, 82);
-  margin: 0 30px;
+  padding: 20px;
+  margin: 0;
+  max-width: 1400px;
 }
 
 .logo {
@@ -16,11 +18,11 @@ body {
   color: white;
 }
 nav {
-  padding: 10px 5px;
+  padding: 20px 0px;
   background-color: #f8f8f8;
 }
 nav ul {
-  padding: 0;
+  padding: 0 60px;
   margin: 0;
 }
 
@@ -40,8 +42,9 @@ nav li.active a {
   color: var(--branding-color);
 }
 .container {
-  max-width: 1400px;
-  margin: 0 auto;
+  padding: 0 12px;
+  margin: 0 32px;
+  max-width: 100%;
 }
 .text-center {
   text-align: center;
